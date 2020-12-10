@@ -1,3 +1,4 @@
+//FACTORY FUNCTION
 //if object has behavior like draw function.
 //this is a factory function it returns a new object
 //Instead of this.radius = radius
