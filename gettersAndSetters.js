@@ -13,7 +13,6 @@ function Circle(radius) {
 this.draw = function () {
     console.log('draw');
 
-
     Object.defineProperty(this, "defaultLocation", { //or we can do and directy use circle.defaultLocation
         get: function () { //This is a getter read-only
             return defaultLocation;
