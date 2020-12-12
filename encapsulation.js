@@ -3,9 +3,14 @@ let baseSalary = 30_000;
 let overtime = 10;
 let rate = 20;
 
-function getWage(baseSalary,overtime,rate){
-    return baseSalary * (overtime *rate);
-} 
+function getWage(baseSalary, overtime, rate) {
+    let calculatedSalary = baseSalary + (overtime * rate);
+    console.log('Prodecural salary: ' + calculatedSalary);
+    return calculatedSalary;
+}
+
+let salary;
+salary = getWage(baseSalary, overtime, rate);
 
 //object oriented way and encapsulation
 //function has no params which is good. 
@@ -17,8 +22,10 @@ let employee = {
     baseSalary: 30_000,
     overtime: 10,
     rate: 20,
-    getWage: function(){
-        return this.baseSalary + (this.overtime * this.rate);
+    getWage: function () {
+        let calculatedSalary = this.baseSalary + (this.overtime * this.rate);
+        console.log('OOP Salary: ' + calculatedSalary);
+        return calculatedSalary;
     }
 };
 employee.getWage();
