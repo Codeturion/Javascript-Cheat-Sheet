@@ -1,8 +1,8 @@
-//FACTORY FUNCTION
-//if object has behavior like draw function.
-//this is a factory function it returns a new object
-//Instead of this.radius = radius
-//Because names are the same we can use radius only
+// FACTORY FUNCTION
+// If object has behavior like draw function.
+// This is a factory function it returns a new object
+// Instead of this.radius = radius
+// Because names are the same we can use radius only
 
 function createCircle(radius) {
     return {
@@ -26,11 +26,11 @@ function Circle(radius) {
         console.log('this created by constructor');
     }
 }
-//Dont forget write new
+// Dont forget write new
 const anotherCircle = new Circle(1);
 anotherCircle.draw();
 
-//Functions are objects too.
+// Functions are objects too.
 const Circle1 = new Function('radius', `
 this.radius = radius;
     this.draw = function () {
@@ -40,10 +40,10 @@ this.radius = radius;
 const circle2 = new Circle1(1);
 circle2.draw();
 
-//we can call function with this
+// We can call function with this
 // {} is empty object
-//this is same as const circle = new Circle(1);
+// This is same as const circle = new Circle(1);
 Circle.call({},1);
 
-//this passes array as arguments good if you have arrays.
+// This passes array as arguments good if you have arrays.
 Circle.apply({},[1,2,3]);

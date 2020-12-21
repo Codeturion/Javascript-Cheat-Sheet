@@ -33,11 +33,4 @@ function StopWatch() {
             return duration;
         }
     });
-
-
-
-
-
-
-
 }

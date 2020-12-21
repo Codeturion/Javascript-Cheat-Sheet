@@ -1,3 +1,3 @@
-//helps eliminate redundant code.
-//uses base class to inherit properties from so we dont have to declare
-//same properties again and again.
+// Helps eliminate redundant code.
+// Uses base class to inherit properties from so we dont have to declare again
+// Same properties again and again.

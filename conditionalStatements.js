@@ -1,4 +1,4 @@
-//if else or switch
+// If else or switch
 
 let today = new Date();
 let hour = today.getHours();
@@ -12,7 +12,7 @@ else
     console.log('Good Evening!');
 
 
-////SWITCH
+//// SWITCH
 switch (hour) {
     case (hour >= 6 && hour < 12):
         console.log('Good Morning!');

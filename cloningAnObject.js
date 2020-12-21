@@ -5,15 +5,12 @@ const circle = {
     }
 };
 
-
-
-
-//Simplier way:
+// Simplier way:
 const simpleCopyCircle = {...circle};
 
-//Cloning.
+// Another way.
 const copiedCircle = Object.assign({},circle);
 
-//Cloning then adding new properties
+// Cloning then adding new properties
 const anotherCopiedCircle = Object.assign({color: 'yellow'},circle);
 

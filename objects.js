@@ -1,13 +1,13 @@
-//this includes
-//Fundamentals of object
-//factories and constructors
-//primitives and reference types
-//working with properties
-//private properties
-//gets and setters
+// This includes
+// Fundamentals of object
+// Factories and constructors
+// Primitives and reference types
+// Working with properties
+// Private properties
+// Gets and setters
 
-// creating and object without any patterns
-// const read-only cannot re-assing
+// Creating and object without any patterns
+// Const read-only cannot re-assing
 const circle = {//{} is object literal synthax
     radius: 1,
     location: {
